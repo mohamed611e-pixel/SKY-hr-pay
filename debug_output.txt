@@ -1,0 +1,2 @@
+Current directory: D:\SKY-payslips-hr
+Files: ['generated_payslips.xlsx', '~$generated_payslips.xlsx']

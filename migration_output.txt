@@ -1,0 +1,4 @@
+  File "D:\SKY-payslips-hr\migrate_excel_to_db_sqlite.py", line 252
+    print("
+          ^
+SyntaxError: unterminated string literal (detected at line 252)

@@ -1,0 +1,19 @@
+2025-09-21 23:01:59,673 - INFO - Excel file validation passed: generated_payslips.xlsx
+2025-09-21 23:01:59,708 - INFO -    Found HRID column: 'Emp ID' at index 0
+2025-09-21 23:01:59,708 - INFO -    Found Name column: 'Name' at index 1
+2025-09-21 23:01:59,709 - INFO -    Found NID column: 'National ID' at index 2
+2025-09-21 23:01:59,709 - INFO -    Found Name column: 'Bank Name' at index 70
+2025-09-21 23:01:59,710 - INFO - Excel structure analysis:
+2025-09-21 23:01:59,710 - INFO -    File: generated_payslips.xlsx
+2025-09-21 23:01:59,710 - INFO -    Sheet: New Hires
+2025-09-21 23:01:59,710 - INFO -    Total rows: 282
+2025-09-21 23:01:59,710 - INFO -    Headers: ['Emp ID', 'Name', 'National ID', 'Company', 'Division', 'Department', 'Section', 'Language/ Grade', 'Job', 'Resignation Date', 'Insurance Number', 'Cost Center', 'Hiring Date', 'Count of Month', 'Gross Salary', 'KPI Bonus', 'Sales Bonus', 'Overtime 200%', 'Salary Corrections', 'Language Bonus Plus T', 'Referral Bonus', 'New Hiring Adjustment', 'Overnight-Turo', 'Overtime amount', 'Social Insurance refund', 'Medical Refund NT', 'Bonus', 'mobile allowance', 'Public Holidays Encashment tax', 'Annual Vacation Encashment', 'Transportation refund', 'Extra Monthly Bonus', 'Night shift allowance', 'Temp life allowance', 'Language Bonus', 'Excellence program Allowance', 'Advanced Tech.Skills bonus', 'Rotational Shifts Bonus T', 'Olympia Round 1', 'Olympia Round 2', 'Client Bonus', 'Arena Bonus', 'Fast Track Bonus', 'Parking Fees Net', 'Total Salary', 'Emp. Share', 'Unpaid Leave', 'Emergency During Probation', 'Fund & Injunct Victims', 'Unauthorized Absence TD', 'Unauthorized Absence by HR TD', 'Absence During Probation TD', 'Half Day Deduction TD', 'Other deductions TD', 'Sick Leave (7:9 Days) TD', 'Sick leave (10:12) Days TD', 'Sick Leave (13:15 Days) TD', 'Sick Leave (16:99 Days) TD', 'Other Deduction from net NTD', 'Medical Deduction NTD', 'Sick During Probation TD', 'Unpaid Days', 'Family Medical Card Discount', 'Payroll Tax', 'Total Deductions', 'Net Salary', 'Hold from June', 'Net After Hold', 'July Hold', 'Net After All Holds', 'Bank Name', 'Site', None, None]
+2025-09-21 23:01:59,710 - INFO -    Column mapping: {'hrid': 0, 'name': 70, 'nid': 2}
+SKY HR Payslip System - Excel to SQLite Database Migration
+=================================================================
+
+Migration Summary:
+   Source file: generated_payslips.xlsx
+   Estimated employees: 281
+   Required columns found: ['hrid', 'name', 'nid']
+

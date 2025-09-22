@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: payslip-app
+    runtime: python3
+    buildCommand: pip install -r requirements.txt
+    startCommand: python payslip_site.py
+    envVars:
+      - key: ADMIN_USERNAME
+        value: Ehab
+      - key: ADMIN_PASSWORD_HASH
+        value: sha256 hash here  # but better to set in dashboard for security

@@ -1,0 +1,5 @@
+Loading Excel file...
+Excel loaded successfully
+Headers found: 74
+First 10 headers: ['Emp ID', 'Name', 'National ID', 'Company', 'Division', 'Department', 'Section', 'Language/ Grade', 'Job', 'Resignation Date']
+Total rows: 282

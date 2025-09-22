@@ -1,0 +1,4 @@
+  File "D:\SKY-payslips-hr\migrate_excel_to_db_sqlite_fixed.py", line 211
+    logger.info(f"   Success rate: {result['success_rate']".1f"}%")
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
